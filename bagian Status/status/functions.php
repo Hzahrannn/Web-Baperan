@@ -22,16 +22,16 @@ function tambah($data) {
 	return mysqli_affected_rows($koneksi);
 }
 
-/*function comment($x) {
+function comment($data) {
 	global $koneksi;
 
-	$komen = htmlspecialchars($x["komen"]);
+	$komen = htmlspecialchars($data["komen"]);
 
 	$query = "INSERT INTO komentar VALUES ('','$komen')";
 	mysqli_query($koneksi, $query);
 
 	return mysqli_affected_rows($koneksi);
-}*/
+}
 
 
 function hapus($id){

@@ -2,7 +2,7 @@
 //koneksi ke database
 require 'functions.php';
 $statuss = query("SELECT * FROM statuss");
-/*$komentar = query("SELECT * FROM komentar");*/
+$komentar = query("SELECT * FROM komentar");
 ?>
 
 <?php  
@@ -18,15 +18,15 @@ if(isset($_POST["submit"]) ){
 		</script>";
 	}
 }
-/*
-if(isset($_POST["kirim"]) ){
-	if(kirim($_POST) >0) {
+
+if(isset($_POST["send"]) ){
+	if(send($_POST) > 0) {
 		echo "
 		<script>
 			document.location.href = 'index.php';
 		</script>";
 	}
-}*/
+}
 ?>
 
 <!DOCTYPE html>
@@ -58,8 +58,10 @@ if(isset($_POST["kirim"]) ){
 			<div class="card">
 				<p><?= $row["isi"]; ?></p>
 				<textarea cols="30" rows="1" placeholder="komen disini.."></textarea>
-				<!-- <textarea disabled=""><?= $row["komen"]; ?></textarea> -->
-				<button type="submit" name="kirim">kirim</button>
+				<?php foreach ($komentar as $row) : ?>
+					<textarea disabled=""><?= $row["komen"]; ?></textarea>
+				<?php endforeach; ?>
+				<button type="submit" name="send">kirim</button>
 			</div>
 			<button><a href="hapus.php?id=<?= $row["id"]; ?>">hapus</a></button>
 	<?php endforeach; ?>
