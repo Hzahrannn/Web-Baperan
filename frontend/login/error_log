@@ -1,0 +1,14 @@
+[31-Dec-2019 01:32:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:33:44 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:42:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:45:30 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:45:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:45:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:46:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:46:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 01:46:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[31-Dec-2019 02:21:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[09-Jan-2020 07:52:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[09-Jan-2020 08:03:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[11-Feb-2020 01:46:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
+[11-Feb-2020 01:47:22 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/login/proses_login.php on line 22
