@@ -16,7 +16,7 @@
  <?php
 
  // menghubungkan dengan koneksi
-include "koneksi.php";
+require "koneksi.php";
 
 // menangkap data yang dikirim dari form
 $nim = $_POST['nim'];
@@ -36,7 +36,7 @@ $cek = mysqli_num_rows($data);
 		$_SESSION['nim'] = $nim;
 		echo "<script>
 			Swal.fire('Login Sukses !', 'Selamat Datang, di Panel BPH HIMSI 2019.', 'success').then(function(){
-				setTimeout(document.location.href = '../bye', 100);
+				setTimeout(document.location.href = '../index.php', 100);
 				})
 				</script>";
 		//header("location:index.php"); 

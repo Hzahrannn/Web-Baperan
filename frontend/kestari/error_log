@@ -1,0 +1,6 @@
+[09-Jan-2020 08:05:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 4
+[09-Jan-2020 08:05:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/himsiuns/baperan.himsiunsri.org/function.php:239) in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 6
+[09-Jan-2020 08:06:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 4
+[09-Jan-2020 08:06:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 4
+[09-Jan-2020 08:06:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 4
+[09-Jan-2020 08:11:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/himsiuns/baperan.himsiunsri.org/kestari/index.php on line 4

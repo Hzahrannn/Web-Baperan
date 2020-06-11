@@ -177,6 +177,7 @@ main .site-title{
     background: url('../assets/Background-image.JPG');
     background-size: cover;
     height: 110vh;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
