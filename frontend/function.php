@@ -216,8 +216,9 @@ function edit($edit) {
                 $jk         = $_POST['jk'];
                 $no         = $_POST['no'];
                 $line       = $_POST['line'];
+                $gambar     = $_POST['gambar'];
 
-            $cek = mysqli_query($koneksi, "UPDATE user SET `nim`='$nim', `nama`='$nama', `jk`='$jk', `no`='$no', `line`='$line'  
+            $cek = mysqli_query($koneksi, "UPDATE user SET `nim`='$nim', `nama`='$nama', `jk`='$jk', `no`='$no', `line`='$line', `gambar`='$gambar'  
             			WHERE nim='$nim'") 
             		or die (mysqli_error());
 

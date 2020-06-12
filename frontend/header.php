@@ -33,7 +33,7 @@
                   <a href="#" class="menu-link"><span class="menu-icon fas fa-rocket"></span> <span class="menu-text">INTI</span></a> <!-- child menu -->
                   <ul class="menu">
                     <li class="menu-item">
-                      <a href="auth-comingsoon-v1.html" class="menu-link">Penilaian</a>
+                      <a href="psdm/penilaianinti/index.php" class="menu-link">Penilaian</a>
                     </li>
                     <li class="menu-item">
                       <a href="auth-comingsoon-v2.html" class="menu-link">Raport BPH</a>
