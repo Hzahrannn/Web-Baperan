@@ -86,17 +86,8 @@ else {
                                     <td width="10%">Pilih Dinas</td>
                                     <td width="40%">
                                         <select class="form-control" name="dinas">
-                                            <option selected disabled hidden>Pilih Dinas</option>
-                                            <option value="">Dinas Bistra</option>
-                                            <option value="">Dinas Kastrad</option>
-                                            <option value="">Dinas Kestari</option>
-                                            <option value="">Dinas Medinfo (Humas)</option> 
-                                            <option value="">Dinas Medinfo (Multimedia)</option>
-                                            <option value="">Dinas PMB (Olahraga)</option>
-                                            <option value="">Dinas PMB (Seni)</option> 
+                                            <option selected disabled hidden>Pilih Dinas</option> 
                                             <option value="PSDMINTI">Dinas PSDM</option>
-                                            <option value="">Dinas Ristek (Akademik)</option>
-                                            <option value="">Dinas Ristek (PTI)</option> 
                                         </select>
                                       </td>
                                     </tr>
